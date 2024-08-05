@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Kartik Rai (Underrated Coder)" />
+    <meta property="og:description" content="Portfolio Website of Kartik Rai" />
+    <meta property="og:image" content="https://github.com/raikartik186/Portfolio-Website/blob/main/images/phone-preview.png?raw=true"/>
+    <meta property="og:url" content="https://raikartik186.github.io/Portfolio-Website/" />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+
+
+    <title>Raghuveersinh Rajput</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/cb31bfb0c6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Learnings">Learnings</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Raghuveersinh Rajput</span><br />from Bharat</h1>
+            </div>
+        </div>
+    </div>
+
+    <!---------------About Section----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Raghu1.jpg" alt="Raghuveersinh Rajput" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify; padding-top: 20px;">
+                        Hi I am Raghuveersinh Rajput here,
+                        I am currently pursuing a Bachelor of Engineering in Information Technology, and I am in my fourth year of study. My academic journey includes completing my SSC (10th grade) with a 70% score and my HSC (12th grade) with a 71% score from Urmi School in Vadodara.
+                        As a fresher, I am eager to dive into the professional world with a strong foundation in various programming languages and technologies. My skills include HTML, CSS, JavaScript, ASP.NET Core, PHP, Python, and Full Stack Web Development. I am passionate about coding and have actively participated in coding hackathons, where I enjoy competing with a community of coders to solve complex problems.
+                        In addition to my technical skills, I am an avid outdoor games enthusiast. My goal is to secure a position at leading tech companies like Google or Microsoft, where I can contribute to innovative projects and continue to grow as a professional.
+                        I am excited about the opportunities ahead and am committed to achieving excellence in my career.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>LANGUAGES</span><br />JavaScript,C#, Python, PHP, SQL</li>
+                            <li><span>FRONTEND TECHNOLOGIES</span><br />ReactJS, Redux, JavaScript, HTML, CSS</li>
+                            <li><span>BACKEND TECHNOLOGIES</span><br />Javascript, NodeJS, .Net, PHP, API</li>
+                           <li><span>DEVELOPER TOOLS</span><br />Git, GitHub, GitLab.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                          <p style="text-align: justify; padding-top: 20px;">
+                            React Developer Intern
+                            Brainy Beam Technology, Vadodara
+                            June 2024 – August 2024</p>
+                          </p>
+                            <li><span>Developed and maintained dynamic and responsive web applications using React.js.
+                            </span></li>
+                            <li><span>Collaborated with the design team to implement user-friendly interfaces and enhance user experience.</span></li>
+                            <li><span>Integrated RESTful APIs to connect frontend applications with backend services.</span></li>
+                            <li><span>Utilized Redux for state management, ensuring efficient data flow and application performance.</span></li>
+                            <li><span>Conducted code reviews and debugging to maintain high-quality code standards.</span></li>
+                            <li><span>Worked with version control systems like Git for efficient code management and collaboration.</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Engineering (B.E.) in Information Technology</span><br />KJ Institute of Technology afiliated by (GTU), Vadodara<br> 2022-2025
+                            </li>
+                            <li><span>Higher Secondary Certificate (HSC)</span><br />Urmi School, Vadodara (GSEB) <br> Graduated- 2017 <br>Percentage: 71%
+                            </li>
+                            <li><span>Secondary School Certificate (SSC)</span><br />Urmi School, Vadodara (GSEB) <br> Graduated- 2015 <br> Percentage: 70% </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="Learnings">
+        <div class="container">
+            <h1 class="sub-title">My Learnings</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p style="text-align: justify class="tight-paragraph;">
+                        Front-End Development:
+                        During my web development journey, I have gained substantial experience in front-end development, focusing on creating interactive and visually appealing user interfaces. My proficiency in HTML, CSS, and JavaScript has allowed me to build responsive and dynamic web pages. Additionally, my experience with React.js at Brainy Beam Technology enhanced my skills in developing complex single-page applications (SPAs).
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.google.com/search?q=web+development&rlz=1C1UEAD_enIN1068IN1068&oq=web+deve&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyBggBEEUYOTINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIKCAcQABixAxiABDIHCAgQABiABDIHCAkQABiABNIBCDUyMDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p style="text-align: justify class="tight-paragraph;">
+                      Learning UI/UX design with Figma is both engaging and efficient. Figma's collaborative features allow multiple designers to work on projects simultaneously. Its intuitive interface, extensive templates, and components simplify the design process from wireframing to final design. By mastering Figma, you can enhance your design skills, create high-quality user experiences, and excel in the dynamic field of UI/UX design..
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.google.com/search?q=UI%2FUX+Design&sca_esv=595645066&rlz=1C1UEAD_enIN1068IN1068&biw=1536&bih=738&ei=cZeWZZjlBpKMseMPlKyg-A4&ved=0ahUKEwjY4cbC0cODAxUSRmwGHRQWCO8Q4dUDCBA&uact=5&oq=UI%2FUX+Design&gs_lp=Egxnd3Mtd2l6LXNlcnAiDFVJL1VYIERlc2lnbjILEAAYgAQYigUYkQIyERAAGIAEGIoFGJECGLEDGIMBMhEQABiABBiKBRiRAhixAxiDATILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI6QVQAFgAcAB4AZABAJgBqQGgAakBqgEDMC4xuAEDyAEA-AEC-AEB4gMEGAAgQYgGAQ&sclient=gws-wiz-serp">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h2>App Development</h2>
+                    <p style="text-align: justify class="tight-paragraph;">
+                        Learning app development with Flutter is both exciting and efficient. Flutter, Google's UI toolkit, allows you to build natively compiled applications for mobile, web, and desktop from a single codebase. Its hot-reload feature speeds up development by allowing real-time updates. Flutter's comprehensive widget library makes creating beautiful and responsive interfaces straightforward. By mastering Flutter, you can enhance your development skills, create high-quality cross-platform apps, and stay competitive in the fast-evolving field of app development
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.google.com/search?sca_esv=595645066&rlz=1C1UEAD_enIN1068IN1068&q=app+development&spell=1&sa=X&ved=2ahUKEwiqhvjA0cODAxWfSmwGHZZgCzwQBSgAegQICRAC&biw=1536&bih=738&dpr=1.25">Learn
+                        more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="" />
+                    <img src="images/work-11.png" alt="" />
+                    <img src="images/work-111.png" alt="" />
+                    <div class="layer">
+                        <h3>Pregle AI Website</h3>
+                        <p>
+                        <ul>
+                            <li style="padding-bottom: 5px;">Built a Complete website with frontend in HTML, CSS,
+                                JavaScript and backend in JavaScript and PHP.</li>
+                            <li style="padding-bottom: 5px;">Integrated with the PregleAI's other websites.</li>
+                            <li style="padding-bottom: 5px;">There are 6 Modules: AI Products , Rent a PC, AI Internship
+                                Programme, PregleAI Indoor Stadium, PregleAI Library, Technical Training.</li>
+                        </ul>
+                        </p>
+                        <a style="text-align: center;" target="_blank" href="https://pregleai.com/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="" />
+                    <img src="images/work-22.png" alt="" />
+                    <img src="images/work-222.png" alt="" />
+                    <div class="layer">
+                        <h3>Rivotta</h3>
+                        <p>
+                        <ul>
+                            <li style="padding-bottom: 5px;">Built a Complete website with frontend in HTML, CSS,
+                                jQuery, JavaScript, Bootstrap and backend in JavaScript and PHP.</li>
+                            <li style="padding-bottom: 5px;">Changed the design of the webpage several times according
+                                to the client's need.</li>
+                            <li style="padding-bottom: 5px;">There are 5 Modules: Ausio Visual Products , Digital
+                                Interactive Kiosk, Digital Signage, Office Automation & IT Products, Products on Rent.
+                            </li>
+                        </ul>
+                        </p>
+                        <a style="text-align: center;" href="https://www.rivotta.com/" target="_blank"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="" />
+                    <img src="images/work-33.png" alt="" />
+                    <img src="images/work-333.png" alt="" />
+                    <div class="layer">
+                        <h3>AIS School ERP</h3>
+                        <p>
+                        <ul>
+                            <li style="padding-bottom: 5px;">Built a Complete website with frontend and backend in
+                                JavaScript and PHP.</li>
+                            <li style="padding-bottom: 5px;">Integrated with the AI Team for capturing the frame and
+                                behaviour of students.</li>
+                            <li style="padding-bottom: 5px;">There are 4 Modules: Student , Teacher, Staff, Admin and
+                                for everyone there is Login with OTP, Registration with Approval, Dashboard with 15
+                                features.</li>
+                        </ul>
+                        </p>
+                        <a target="_blank" style="text-align: center;"
+                            href="https://ashokainternationalschool.digisnartech.online/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> raghuveersinhrajout207@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9016491700</p>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.youtube.com/@raghuveersinhrajput5704"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/raghuveersinh_rajput/"><i
+                                class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/raghuveersinh-rajput-a08360153/"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a target="_blank" href="https://github.com/phantomoak"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/raghuveer.rajput.9883"><i
+                                class="fab fa-facebook"></i></a>
+                    </div>
+                    <a href="javascript:void(0)" download class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
+                        <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>
+                Copyright 2024 <a href="https://www.linkedin.com/in/raghuveersinh-rajput-a08360153/" target="_blank" style="color: white;">&copy;Raghuveersinh Rajput</a>. All rights reserved. Made with <i class="fas fa-heart"></i>MYskills
+            </p>
+        </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSawvairRZtoaXaQwgEI8kkQAevLa3nIGHgCPuZ0r6bJTCThE0KGHtCokGZ1Lva7e-Bw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
